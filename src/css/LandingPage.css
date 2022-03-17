@@ -1,0 +1,40 @@
+.section2{
+    background-color: #003378;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.counting{
+    color: #fff;
+    display: flex;
+    width: 80%;
+}
+
+.glass{
+    border: 3px solid #fff;
+    box-shadow: 0px 4px 4px #011F4F;
+    border-radius: 15px;
+}
+
+.glass >h1{
+    font-size: 41px;
+}
+
+.glass >h2{
+    font-size: 22px;
+}
+.part1{
+    width: 80%;
+}
+
+.part1 > h2 {
+    font-size: 39px;
+    
+}
+
+
+.part1 > p {
+    font-size: 31px;
+    
+}
