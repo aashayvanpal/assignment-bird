@@ -1,40 +1,70 @@
+body, html{
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: #003378;
+}
 .section2{
     background-color: #003378;
     height: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 250px;
 }
 
 .counting{
     color: #fff;
     display: flex;
+    justify-content: space-between;
     width: 80%;
+    height: 100vh;
 }
 
 .glass{
-    border: 3px solid #fff;
-    box-shadow: 0px 4px 4px #011F4F;
-    border-radius: 15px;
+    display: flex;
+   
 }
 
-.glass >h1{
-    font-size: 41px;
+.glass-content >h1{
+    font-size: 50px;
 }
 
-.glass >h2{
-    font-size: 22px;
+.glass-content >h2{
+    font-size: 30px;
+}
+
+.glass-content{
+    display: block;
 }
 .part1{
-    width: 80%;
+    width: 70%;
+    height: 100%;
+
 }
 
 .part1 > h2 {
     font-size: 39px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 0px, 1px 0px, 1px 1px;
+    font-weight: bolder;
     
 }
 
 
 .part1 > p {
     font-size: 31px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 0px, 1px 0px, 1px 1px;
+    font-weight: bolder;
     
+}
+
+.part2{
+    background-image: url('../images/Glass.svg');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 34%;
 }
