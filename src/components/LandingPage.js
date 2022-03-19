@@ -42,6 +42,7 @@ const LandingPage = () => {
                 </div>
             </div>
 
+{/* 
             <div className='verification'>
                 <img src={illustration} id="illustration" alt="illustration"/>
                 <div className='verification-content'>
@@ -104,7 +105,7 @@ const LandingPage = () => {
                     <p>Amidst the competition in the Defi space, good marketing strategy and implementation plays the key role to stabilize and promote your growth in the blockchain industry. Retaining this awareness, we can develop launchpad and IDO for your presale and ICO. </p>
                 </div>
                 <img src={scene} id="scene" alt="scene" />
-            </div>
+            </div> */}
         </div>
     )
 }
