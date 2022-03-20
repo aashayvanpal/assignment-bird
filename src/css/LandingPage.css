@@ -11,7 +11,7 @@ body{
     height: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 360px;
+    margin-top: 288px;
     margin-left: auto;
     margin-right: auto;
     width: 85%;
@@ -23,7 +23,7 @@ body{
     top: 0;
     /* width: 230px; */
     width: 225px;
-    height: 222px;
+    height: 170px;
 }
 #circle{
     position: absolute;
@@ -70,7 +70,7 @@ body{
 
 
 .part1{
-    width: 60%;
+    width: 80%;
     height: 100%;
     z-index: 1;
 }
