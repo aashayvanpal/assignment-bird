@@ -2,13 +2,13 @@ import React from 'react'
 import '../css/LandingPage.css'
 import line from '../images/line.svg'
 import dots from '../images/dots.png'
-// import illustration from '../images/Illustration.svg'
-// import maintenance from '../images/Maintenance.svg'
+import illustration from '../images/Illustration.svg'
+import neon1 from '../images/Neon1.svg'
+import maintenance from '../images/Maintenance.svg'
 // import development from '../images/Development.svg'
 // import discuss from '../images/Discuss.svg'
 // import work from '../images/Work.svg'
 // import scene from '../images/scene.svg'
-// import neon1 from '../images/Neon1.svg'
 const LandingPage = () => {
     return (
         <div className='page'>
@@ -43,9 +43,9 @@ const LandingPage = () => {
                 </div>
             </div>
 
-{/* 
+
             <div className='verification'>
-                <img src={illustration} id="illustration" alt="illustration"/>
+                <img src={illustration} id="illustration" alt="illustration" />
                 <div className='verification-content'>
                     <span>DEFI</span>
                     <h2>Scale the world of DeFi</h2>
@@ -54,7 +54,7 @@ const LandingPage = () => {
                 </div>
                 <img src={neon1} id="neon1" alt="neon1" />
             </div>
-
+             
             <div className='avoid-costly-errors'>
                 <div className='avoid-costly-errors-content'>
                     <span>DAPPS</span>
@@ -63,7 +63,7 @@ const LandingPage = () => {
                 </div>
                 <img src={maintenance} id="maintenance" alt="maintenance"/>
             </div>
-
+{/*
             <div className='detailed'>
                 <img src={development} id="development" alt="development" />
                 <div className='detailed-content'>
