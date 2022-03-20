@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/LandingPage.css'
 import line from '../images/line.svg'
-import dots from '../images/dots.svg'
+import dots from '../images/dots.png'
 // import illustration from '../images/Illustration.svg'
 // import maintenance from '../images/Maintenance.svg'
 // import development from '../images/Development.svg'
