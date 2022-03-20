@@ -14,7 +14,7 @@ body{
     margin-top: 288px;
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
+    width: 90%;
 }
 
 #dots{
@@ -24,21 +24,33 @@ body{
     width: 180px;
     height: 220px;
 }
+/* 
 #circle{
     position: absolute;
-    background: radial-gradient(53.9% 53.9% at 77.01% 30.21%, rgba(31, 195, 231, 0.84375) 0%, #1F34E7 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background: radial-gradient(53.9% 53.9% at 77.01% 30.21%, rgba(31, 195, 231, 0.84375) 0%, #1F34E7 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected ;
     opacity: 0.35;
     filter: blur(250px);
     width: 60%;
     height: 100%;
     left: 13px;
+} 
+*/
+
+#circle-blur{
+    background: url('../images/Blur.svg');
+    filter: blur(250px);
+    height: 100%;
+    left: 42px;
+    top: 88px;
+    position: absolute;
+    width: 60%;
 }
 
 #line{
-    width: 100%;
     height: 100%;
-    transform: scale(1.5);
-    margin-top: 70px;
+    margin-top: 96px;
+    width: 100%;
+    transform: scale(1.8);
 }
 .counting{
     color: #fff;

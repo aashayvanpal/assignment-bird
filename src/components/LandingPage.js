@@ -15,7 +15,8 @@ const LandingPage = () => {
             <div className='section2'>
                 <img src={dots} id="dots" alt="dots" />
                 <div className='counting'>
-                    <div id="circle"></div>
+                    {/* <div id="circle"></div> */}
+                    <div id="circle-blur"></div>
 
                     <div className='part1'>
                         <h2>We provide The Best To Protect Your Users And Their Investments</h2>
