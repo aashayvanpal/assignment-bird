@@ -130,16 +130,18 @@ body{
 
 #neon1{
     position: absolute;
-    margin-left: 161px;
-    margin-top: 211px;
-    /* transform: scale(1.2); */
+    /* margin-left: 161px;
+    margin-top: 211px; */
+    margin-left: 111px;
+    margin-top: 250px;
 }
 
 #neon2{
     position: absolute;
-    margin-top: 615px;
-    margin-left: 1058px;
-    transform: scale(-1.5,1.5);
+    margin-left: 542px;
+    margin-top: 354px;
+    -webkit-transform: scale(-1.5,1.5);
+    transform: scale(-1,1);
 }
 
 .verification,
@@ -160,6 +162,9 @@ body{
 .avoid-costly-errors{
     margin-top: 150px;
 }
+.easy-integration{
+    margin-left: 100px;
+}
 #illustration,#maintenance,#development,#discuss,#work{
     width: 40%;
 
@@ -177,16 +182,16 @@ body{
 #discuss{
     transform: scale(0.85);
     margin-top: -100px;
+    margin-left: 80px;
 }
 
 #work{
     transform: scale(1.3);
-    margin-left: 100px;
 }
 
 #scene{
-    transform: scale(1.5);
     margin-left: 100px;
+    margin-top: -80px;
 }
 
 .verification-content,
